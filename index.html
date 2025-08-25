@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Work+Sans:wght@300;400;600&display.swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div id="custom-cursor" class="custom-cursor"></div>
     <div class="animated-background"></div>
 
     <header class="header" id="header">
@@ -47,7 +46,7 @@
                     <p class="home__description">
                         Seorang kreator digital yang mengubah ide-ide kompleks menjadi pengalaman web yang indah, fungsional, dan berkesan.
                     </p>
-                    <a href="#projects" class="button button--primary" id="home-button">Lihat Karya Saya</a>
+                    <a href="#projects" class="button button--primary">Lihat Karya Saya</a>
                 </div>
             </div>
             <a href="#about" class="scroll-down-indicator" aria-label="Scroll ke bawah"></a>
@@ -55,16 +54,13 @@
 
         <section class="about section" id="about">
             <div class="about__container container grid">
-                <div class="about__data reveal-content">
+                <div class="about__data">
                     <h2 class="section__title animated-gradient-text">FILOSOFI SAYA.</h2>
                     <p class="about__description">
                         Saya percaya bahwa teknologi terbaik adalah yang terasa seperti sihir—intuitif, mulus, dan memberdayakan. Gairah saya terletak pada persimpangan antara desain yang bersih dan kode yang efisien. Saya tidak hanya membangun situs web atau aplikasi; saya merancang pengalaman yang terhubung, menginspirasi, dan menyelesaikan masalah nyata.
                     </p>
-                    <p class="about__description">
-                        Setiap baris kode yang saya tulis dan setiap piksel yang saya tempatkan didorong oleh tujuan untuk menciptakan sesuatu yang tidak hanya terlihat bagus, tetapi juga terasa benar. Mari ciptakan sesuatu yang luar biasa bersama.
-                    </p>
                 </div>
-                <div class="skills__super-container reveal-content">
+                <div class="skills__super-container">
                     <div class="skills__category">
                         <h3 class="skills__title">Front-End</h3>
                         <div class="skills__box">
@@ -74,17 +70,11 @@
                         </div>
                     </div>
                     <div class="skills__category">
-                        <h3 class="skills__title">Back-End</h3>
+                        <h3 class="skills__title">Back-End & Lainnya</h3>
                         <div class="skills__box">
-                            <span class="skills__tag">Node.js</span><span class="skills__tag">Express / Fastify</span>
-                            <span class="skills__tag">GraphQL & Apollo</span><span class="skills__tag">PostgreSQL / MongoDB</span>
-                        </div>
-                    </div>
-                     <div class="skills__category">
-                        <h3 class="skills__title">Design & DevOps</h3>
-                        <div class="skills__box">
+                            <span class="skills__tag">Node.js & Express</span><span class="skills__tag">GraphQL & Apollo</span>
+                            <span class="skills__tag">PostgreSQL / MongoDB</span><span class="skills__tag">Docker</span>
                             <span class="skills__tag">Figma & Prototyping</span><span class="skills__tag">UI/UX Principles</span>
-                            <span class="skills__tag">Docker</span><span class="skills__tag">CI/CD Pipelines</span>
                         </div>
                     </div>
                 </div>
@@ -95,30 +85,38 @@
             <div class="container">
                 <h2 class="section__title animated-gradient-text">KARYA PILIHAN.</h2>
                 <div class="projects__container grid">
-                    <article class="project__card"><div class="project__image" style="background-color: #5B2A86;"></div><div class="project__overlay"><span class="project__subtitle">Aplikasi Web</span><h3 class="project__title">Platform Analitik Data</h3><p class="project__description">Dashboard interaktif untuk visualisasi data kompleks dengan performa tinggi.</p><a href="#" target="_blank" class="project__link">Lihat Proyek &rarr;</a></div></article>
-                    <article class="project__card"><div class="project__image" style="background-color: #3B5249;"></div><div class="project__overlay"><span class="project__subtitle">E-commerce</span><h3 class="project__title">Brand Fashion Mewah</h3><p class="project__description">Pengalaman belanja online yang imersif dengan fokus pada detail visual.</p><a href="#" target="_blank" class="project__link">Lihat Proyek &rarr;</a></div></article>
-                    <article class="project__card"><div class="project__image" style="background-color: #A43820;"></div><div class="project__overlay"><span class="project__subtitle">UI/UX Redesign</span><h3 class="project__title">Aplikasi Mobile FinTech</h3><p class="project__description">Merombak total pengalaman pengguna untuk meningkatkan kemudahan dan kepercayaan.</p><a href="#" target="_blank" class="project__link">Lihat Studi Kasus &rarr;</a></div></article>
-                    <article class="project__card"><div class="project__image" style="background-color: #282A3A;"></div><div class="project__overlay"><span class="project__subtitle">Website Interaktif</span><h3 class="project__title">Portofolio Seniman Digital</h3><p class="project__description">Situs pameran karya dengan animasi WebGL dan navigasi yang unik.</p><a href="#" target="_blank" class="project__link">Lihat Proyek &rarr;</a></div></article>
-                    <article class="project__card"><div class="project__image" style="background-color: #A9294F;"></div><div class="project__overlay"><span class="project__subtitle">Platform SaaS</span><h3 class="project__title">Manajemen Proyek Cerdas</h3><p class="project__description">Platform kolaboratif berbasis AI untuk mengoptimalkan alur kerja tim.</p><a href="#" target="_blank" class="project__link">Lihat Proyek &rarr;</a></div></article>
-                    <article class="project__card"><div class="project__image" style="background-color: #F1B814;"></div><div class="project__overlay"><span class="project__subtitle">Branding & Identity</span><h3 class="project__title">Kedai Kopi "Aroma"</h3><p class="project__description">Membangun identitas visual yang kuat dari logo hingga pengalaman digital.</p><a href="#" target="_blank" class="project__link">Lihat Brand Guideline &rarr;</a></div></article>
-                    <article class="project__card"><div class="project__image" style="background-color: #116979;"></div><div class="project__overlay"><span class="project__subtitle">Aplikasi Mobile</span><h3 class="project__title">Aplikasi Meditasi "Hening"</h3><p class="project__description">Desain antarmuka yang menenangkan untuk membantu pengguna menemukan ketenangan.</p><a href="#" target="_blank" class="project__link">Lihat di App Store &rarr;</a></div></article>
-                    <article class="project__card"><div class="project__image" style="background-color: #5D5D5D;"></div><div class="project__overlay"><span class="project__subtitle">Web Eksperimental</span><h3 class="project__title">Generative Art Engine</h3><p class="project__description">Sebuah kanvas digital di mana pengguna dapat menciptakan seni unik berbasis algoritma.</p><a href="#" target="_blank" class="project__link">Mulai Mencipta &rarr;</a></div></article>
-                </div>
-            </div>
-        </section>
-        
-        <section class="testimonials section" id="testimonials">
-            <div class="container">
-                <h2 class="section__title animated-gradient-text">APA KATA MEREKA.</h2>
-                <div class="testimonials__container">
-                    <div class="testimonial__card reveal-content">
-                        <p class="testimonial__text">"Bekerja dengan NAMA ANDA mengubah cara kami memandang produk digital. Bukan hanya seorang developer, tapi seorang visioner sejati."</p>
-                        <span class="testimonial__author">CEO, Innovate Corp</span>
-                    </div>
-                     <div class="testimonial__card reveal-content">
-                        <p class="testimonial__text">"Detail dan dedikasinya pada kualitas sungguh luar biasa. Hasil akhirnya jauh melampaui ekspektasi kami."</p>
-                        <span class="testimonial__author">Project Manager, ScaleUp</span>
-                    </div>
+                    <article class="project__card">
+                        <img src="https://picsum.photos/seed/tech/600/800" alt="Gambar Proyek Analitik Data" class="project__image">
+                        <div class="project__overlay">
+                            <span class="project__subtitle">Aplikasi Web</span>
+                            <h3 class="project__title">Platform Analitik Data</h3>
+                            <a href="#" target="_blank" class="project__link">Lihat Proyek &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="project__card">
+                        <img src="https://picsum.photos/seed/fashion/600/800" alt="Gambar Proyek E-commerce Fashion" class="project__image">
+                        <div class="project__overlay">
+                            <span class="project__subtitle">E-commerce</span>
+                            <h3 class="project__title">Brand Fashion Mewah</h3>
+                            <a href="#" target="_blank" class="project__link">Lihat Proyek &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="project__card">
+                        <img src="https://picsum.photos/seed/fintech/600/800" alt="Gambar Proyek Aplikasi FinTech" class="project__image">
+                        <div class="project__overlay">
+                            <span class="project__subtitle">UI/UX Redesign</span>
+                            <h3 class="project__title">Aplikasi Mobile FinTech</h3>
+                            <a href="#" target="_blank" class="project__link">Lihat Studi Kasus &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="project__card">
+                        <img src="https://picsum.photos/seed/art/600/800" alt="Gambar Proyek Portofolio Seniman" class="project__image">
+                        <div class="project__overlay">
+                           <span class="project__subtitle">Website Interaktif</span>
+                           <h3 class="project__title">Portofolio Seniman Digital</h3>
+                           <a href="#" target="_blank" class="project__link">Lihat Proyek &rarr;</a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
@@ -128,39 +126,13 @@
                 <h2 class="section__title animated-gradient-text">JEJAK PROFESIONAL.</h2>
                 <div class="experience__container">
                     <div class="experience__timeline">
-                        <div class="experience__item reveal-content"><div class="experience__data"><span class="experience__date">2022 - SEKARANG</span><h4 class="experience__title">Lead Creative Technologist</h4><span class="experience__company">di Digital Agency "Innovate"</span></div></div>
-                        <div class="experience__item reveal-content"><div class="experience__data"><span class="experience__date">2019 - 2022</span><h4 class="experience__title">Senior Front-End Developer</h4><span class="experience__company">di Tech Startup "ScaleUp"</span></div></div>
-                        <div class="experience__item reveal-content"><div class="experience__data"><span class="experience__date">2017 - 2019</span><h4 class="experience__title">Web Developer & Designer</h4><span class="experience__company">di Creative Studio "PixelPerfect"</span></div></div>
-                        <div class="experience__item reveal-content"><div class="experience__data"><span class="experience__date">2013 - 2017</span><h4 class="experience__title">Sarjana Desain Komunikasi Visual</h4><span class="experience__company">di Universitas Seni Indonesia</span></div></div>
+                        <div class="experience__item"><div class="experience__data"><span class="experience__date">2022 - SEKARANG</span><h4 class="experience__title">Lead Creative Technologist</h4><span class="experience__company">di Digital Agency "Innovate"</span></div></div>
+                        <div class="experience__item"><div class="experience__data"><span class="experience__date">2019 - 2022</span><h4 class="experience__title">Senior Front-End Developer</h4><span class="experience__company">di Tech Startup "ScaleUp"</span></div></div>
+                        <div class="experience__item"><div class="experience__data"><span class="experience__date">2017 - 2019</span><h4 class="experience__title">Web Developer & Designer</h4><span class="experience__company">di Creative Studio "PixelPerfect"</span></div></div>
+                        <div class="experience__item"><div class="experience__data"><span class="experience__date">2013 - 2017</span><h4 class="experience__title">Sarjana Desain Komunikasi Visual</h4><span class="experience__company">di Universitas Seni Indonesia</span></div></div>
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <section class="process section" id="process">
-             <h2 class="section__title animated-gradient-text">PROSES KERJA SAYA.</h2>
-             <div class="process__container container grid">
-                 <div class="process__card reveal-content">
-                     <div class="process__number">01</div>
-                     <h3 class="process__title">Discovery & Strategy</h3>
-                     <p class="process__description">Memahami visi Anda, mendefinisikan tujuan, dan merancang peta jalan strategis untuk kesuksesan proyek.</p>
-                 </div>
-                 <div class="process__card reveal-content">
-                     <div class="process__number">02</div>
-                     <h3 class="process__title">Design & Prototyping</h3>
-                     <p class="process__description">Menciptakan antarmuka yang intuitif dan indah, serta membuat prototipe interaktif untuk validasi konsep.</p>
-                 </div>
-                 <div class="process__card reveal-content">
-                     <div class="process__number">03</div>
-                     <h3 class="process__title">Development & Testing</h3>
-                     <p class="process__description">Menulis kode yang bersih dan efisien, serta melakukan pengujian ketat untuk memastikan kualitas dan performa.</p>
-                 </div>
-                 <div class="process__card reveal-content">
-                     <div class="process__number">04</div>
-                     <h3 class="process__title">Launch & Optimization</h3>
-                     <p class="process__description">Meluncurkan produk ke dunia, memantau kinerjanya, dan terus melakukan iterasi untuk hasil yang lebih baik.</p>
-                 </div>
-             </div>
         </section>
 
         <section class="contact section" id="contact">
@@ -197,7 +169,7 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         new Typed('#typed-profession', {
-            strings: ['Creative Technologist.', 'Front-End Architect.', 'Digital Experience Crafter.', 'UI/UX Visionary.'],
+            strings: ['Creative Technologist.', 'Front-End Architect.', 'Digital Experience Crafter.'],
             typeSpeed: 60, backSpeed: 40, backDelay: 2200, startDelay: 500, loop: true
         });
 
@@ -212,7 +184,7 @@
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => entry.isIntersecting && entry.target.classList.add('is-visible'));
         }, { threshold: 0.1 });
-        document.querySelectorAll('.section, .reveal-content').forEach(el => observer.observe(el));
+        document.querySelectorAll('.section').forEach(el => observer.observe(el));
         
         const sectionsWithId = document.querySelectorAll('section[id]');
         const scrollActive = () => {
@@ -233,48 +205,6 @@
         themeButton.addEventListener('click', () => {
             document.body.classList.toggle(lightThemeClass);
             localStorage.setItem('selected-theme', getCurrentTheme());
-        });
-
-        const cursor = document.getElementById('custom-cursor');
-        const links = document.querySelectorAll('a, button, .nav__toggle, .theme-switcher');
-        const trailCount = 20, trailElements = [], trailPositions = [];
-        const easing = 0.25;
-        let mouseX = -20, mouseY = -20, cursorX = -20, cursorY = -20;
-
-        for (let i = 0; i < trailCount; i++) {
-            const div = document.createElement('div');
-            div.classList.add('cursor-trail');
-            document.body.appendChild(div);
-            trailElements.push(div);
-            trailPositions.push({ x: -20, y: -20 });
-        }
-
-        window.addEventListener('mousemove', e => { mouseX = e.clientX; mouseY = e.clientY; });
-
-        function animateCursor() {
-            cursorX += (mouseX - cursorX) * easing;
-            cursorY += (mouseY - cursorY) * easing;
-            cursor.style.transform = `translate3d(${cursorX}px, ${cursorY}px, 0)`;
-            trailPositions[0] = { x: cursorX, y: cursorY };
-            for (let i = 1; i < trailCount; i++) {
-                let prev = trailPositions[i - 1], curr = trailPositions[i];
-                curr.x += (prev.x - curr.x) * easing;
-                curr.y += (prev.y - curr.y) * easing;
-                trailElements[i].style.transform = `translate3d(${curr.x}px, ${curr.y}px, 0) scale(${1 - i / trailCount})`;
-            }
-            requestAnimationFrame(animateCursor);
-        }
-        animateCursor();
-        
-        links.forEach(link => {
-            link.addEventListener('mouseenter', () => cursor.classList.add('hover'));
-            link.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
-        });
-
-        const homeButton = document.getElementById('home-button');
-        window.addEventListener('scroll', () => {
-            let scroll = window.pageYOffset;
-            homeButton.style.transform = `translateY(${scroll * 0.2}px)`;
         });
     });
     </script>
