@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portofolio | Nama Anda</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script> </head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">NAMA ANDA</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Tentang Saya</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Keahlian</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Proyek</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Pengalaman</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Kontak</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__greeting">Halo, saya</span>
+                    <h1 class="home__name">Nama Lengkap Anda</h1>
+                    <h3 class="home__profession">Web Developer & UI/UX Designer</h3>
+                    <p class="home__description">
+                        Seorang profesional yang bersemangat dalam menciptakan solusi digital yang fungsional dan indah. Memiliki pengalaman dalam pengembangan web modern dan desain antarmuka yang ramah pengguna.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#contact" class="button button--primary">Hubungi Saya</a>
+                        <a href="#projects" class="button button--secondary">Lihat Proyek</a>
+                    </div>
+                </div>
+                <div class="home__social">
+                    <a href="#" target="_blank" class="home__social-link">LinkedIn</a>
+                    <a href="#" target="_blank" class="home__social-link">GitHub</a>
+                    <a href="#" target="_blank" class="home__social-link">Dribbble</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">Tentang Saya</h2>
+                <span class="section__subtitle">Perkenalan Singkat</span>
+
+                <div class="about__container grid">
+                    <div class="about__data">
+                        <p class="about__description">
+                            Saya adalah seorang pengembang web dengan pengalaman lebih dari 5 tahun dalam merancang, mengembangkan, dan memelihara berbagai jenis aplikasi web. Saya memiliki hasrat besar untuk teknologi dan selalu antusias mempelajari hal-hal baru. Perjalanan saya di dunia digital dimulai dari ketertarikan sederhana pada bagaimana sebuah situs web bekerja, yang kemudian berkembang menjadi karir profesional.
+                        </p>
+                        <p class="about__description">
+                            Keahlian utama saya terletak pada pengembangan front-end dengan React dan Vue, serta back-end menggunakan Node.js dan Express. Saya juga berpengalaman dalam mengelola database seperti PostgreSQL dan MongoDB. Di luar koding, saya menikmati proses desain UI/UX, mengubah ide-ide kompleks menjadi antarmuka yang sederhana dan intuitif. Saya percaya bahwa produk digital terbaik lahir dari kolaborasi erat antara desain dan rekayasa.
+                        </p>
+                        <p class="about__description">
+                            Tujuan saya adalah untuk terus tumbuh sebagai seorang profesional teknologi, berkontribusi pada proyek-proyek yang menantang, dan menciptakan produk yang tidak hanya berfungsi dengan baik tetapi juga memberikan pengalaman yang menyenangkan bagi penggunanya.
+                        </p>
+                    </div>
+
+                    <div class="about__stats">
+                        <div class="about__stat">
+                            <h3 class="about__stat-number">05+</h3>
+                            <span class="about__stat-title">Tahun<br>Pengalaman</span>
+                        </div>
+                        <div class="about__stat">
+                            <h3 class="about__stat-number">20+</h3>
+                            <span class="about__stat-title">Proyek<br>Selesai</span>
+                        </div>
+                        <div class="about__stat">
+                            <h3 class="about__stat-number">08+</h3>
+                            <span class="about__stat-title">Teknologi<br>Dikuasai</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Keahlian Saya</h2>
+                <span class="section__subtitle">Kemampuan Teknis & Profesional</span>
+
+                <div class="skills__container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Front-End Development</h3>
+                        <div class="skills__box">
+                            <div class="skills__data">
+                                <span class="skills__name">HTML5</span>
+                                <span class="skills__number">95%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 95%;"></span></div>
+                            </div>
+                            <div class="skills__data">
+                                <span class="skills__name">CSS3 & SASS</span>
+                                <span class="skills__number">90%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 90%;"></span></div>
+                            </div>
+                            <div class="skills__data">
+                                <span class="skills__name">JavaScript (ES6+)</span>
+                                <span class="skills__number">85%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 85%;"></span></div>
+                            </div>
+                            <div class="skills__data">
+                                <span class="skills__name">React.js</span>
+                                <span class="skills__number">90%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 90%;"></span></div>
+                            </div>
+                             <div class="skills__data">
+                                <span class="skills__name">Vue.js</span>
+                                <span class="skills__number">80%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 80%;"></span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Back-End Development</h3>
+                        <div class="skills__box">
+                            <div class="skills__data">
+                                <span class="skills__name">Node.js</span>
+                                <span class="skills__number">85%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 85%;"></span></div>
+                            </div>
+                            <div class="skills__data">
+                                <span class="skills__name">Express.js</span>
+                                <span class="skills__number">80%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 80%;"></span></div>
+                            </div>
+                            <div class="skills__data">
+                                <span class="skills__name">PostgreSQL</span>
+                                <span class="skills__number">75%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 75%;"></span></div>
+                            </div>
+                            <div class="skills__data">
+                                <span class="skills__name">MongoDB</span>
+                                <span class="skills__number">70%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 70%;"></span></div>
+                            </div>
+                             <div class="skills__data">
+                                <span class="skills__name">RESTful APIs</span>
+                                <span class="skills__number">90%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 90%;"></span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">UI/UX Design</h3>
+                        <div class="skills__box">
+                            <div class="skills__data">
+                                <span class="skills__name">Figma</span>
+                                <span class="skills__number">90%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 90%;"></span></div>
+                            </div>
+                            <div class="skills__data">
+                                <span class="skills__name">Adobe XD</span>
+                                <span class="skills__number">80%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 80%;"></span></div>
+                            </div>
+                            <div class="skills__data">
+                                <span class="skills__name">User Research</span>
+                                <span class="skills__number">75%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 75%;"></span></div>
+                            </div>
+                            <div class="skills__data">
+                                <span class="skills__name">Prototyping</span>
+                                <span class="skills__number">85%</span>
+                                <div class="skills__bar"><span class="skills__percentage" style="width: 85%;"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Proyek Saya</h2>
+                <span class="section__subtitle">Karya Terbaru</span>
+
+                <div class="projects__container grid">
+                    <article class="project__card">
+                        <div class="project__content">
+                            <span class="project__subtitle">Web Application</span>
+                            <h3 class="project__title">Sistem Manajemen Inventaris</h3>
+                            <p class="project__description">
+                                Aplikasi web komprehensif untuk melacak dan mengelola stok barang secara real-time. Dibangun dengan MERN stack (MongoDB, Express, React, Node.js) dan dilengkapi dengan fitur otentikasi pengguna, laporan, dan notifikasi.
+                            </p>
+                            <div class="project__tags">
+                                <span class="project__tag">React</span>
+                                <span class="project__tag">Node.js</span>
+                                <span class="project__tag">MongoDB</span>
+                                <span class="project__tag">JWT</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" target="_blank" class="project__link">Live Demo</a>
+                                <a href="#" target="_blank" class="project__link">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <div class="project__content">
+                            <span class="project__subtitle">UI/UX Design</span>
+                            <h3 class="project__title">Desain Aplikasi Mobile Banking</h3>
+                            <p class="project__description">
+                                Mendesain ulang antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk aplikasi mobile banking. Fokus pada penyederhanaan alur transaksi, peningkatan keamanan, dan tampilan visual yang modern menggunakan Figma.
+                            </p>
+                            <div class="project__tags">
+                                <span class="project__tag">Figma</span>
+                                <span class="project__tag">UI/UX</span>
+                                <span class="project__tag">Prototyping</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" target="_blank" class="project__link">Lihat di Behance</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card">
+                        <div class="project__content">
+                            <span class="project__subtitle">E-commerce</span>
+                            <h3 class="project__title">Toko Online "Kopi Kita"</h3>
+                            <p class="project__description">
+                                Membangun platform e-commerce penuh untuk sebuah brand kopi lokal. Mengimplementasikan fitur keranjang belanja, gateway pembayaran, manajemen produk, dan panel admin. Dibuat menggunakan Vue.js dan Firebase.
+                            </p>
+                            <div class="project__tags">
+                                <span class="project__tag">Vue.js</span>
+                                <span class="project__tag">Firebase</span>
+                                <span class="project__tag">Stripe API</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" target="_blank" class="project__link">Live Demo</a>
+                                <a href="#" target="_blank" class="project__link">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project__card">
+                        <div class="project__content">
+                            <span class="project__subtitle">Landing Page</span>
+                            <h3 class="project__title">Website Portofolio Fotografer</h3>
+                            <p class="project__description">
+                                Merancang dan mengembangkan landing page yang elegan dan responsif untuk seorang fotografer profesional. Fokus pada visual yang kuat, galeri yang cepat dimuat, dan optimasi SEO.
+                            </p>
+                            <div class="project__tags">
+                                <span class="project__tag">HTML5</span>
+                                <span class="project__tag">SASS</span>
+                                <span class="project__tag">JavaScript</span>
+                                <span class="project__tag">GSAP</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" target="_blank" class="project__link">Live Demo</a>
+                                <a href="#" target="_blank" class="project__link">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience section" id="experience">
+            <div class="container">
+                <h2 class="section__title">Pengalaman & Pendidikan</h2>
+                <span class="section__subtitle">Perjalanan Karir Saya</span>
+
+                <div class="experience__container grid">
+                    <div class="experience__content">
+                        <h3 class="experience__area-title">Pengalaman Kerja</h3>
+                        
+                        <div class="experience__timeline">
+                            <div class="experience__item">
+                                <div class="experience__line">
+                                    <span class="experience__dot"></span>
+                                </div>
+                                <div class="experience__data">
+                                    <h4 class="experience__title">Senior Web Developer</h4>
+                                    <span class="experience__company">di PT Teknologi Maju | 2022 - Sekarang</span>
+                                    <p class="experience__description">
+                                        Memimpin tim front-end dalam pengembangan produk utama perusahaan. Bertanggung jawab atas arsitektur kode, code review, dan mentoring developer junior. Berhasil meningkatkan performa aplikasi sebesar 30%.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__item">
+                                <div class="experience__line">
+                                    <span class="experience__dot"></span>
+                                </div>
+                                <div class="experience__data">
+                                    <h4 class="experience__title">Mid-Level Full Stack Developer</h4>
+                                    <span class="experience__company">di Startup Digital Kreatif | 2019 - 2022</span>
+                                    <p class="experience__description">
+                                        Mengembangkan fitur-fitur baru baik dari sisi client maupun server. Berkolaborasi dengan tim produk dan desain untuk menerjemahkan kebutuhan bisnis menjadi solusi teknis yang solid.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__item">
+                                <div class="experience__line">
+                                    <span class="experience__dot"></span>
+                                </div>
+                                <div class="experience__data">
+                                    <h4 class="experience__title">Junior Front-End Developer</h4>
+                                    <span class="experience__company">di Agensi Web Jakarta | 2017 - 2019</span>
+                                    <p class="experience__description">
+                                        Mengubah desain dari Figma/PSD menjadi kode HTML, CSS, dan JavaScript yang bersih dan responsif. Membantu dalam pemeliharaan website klien yang sudah ada.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience__content">
+                        <h3 class="experience__area-title">Pendidikan</h3>
+
+                        <div class="experience__timeline">
+                            <div class="experience__item">
+                                <div class="experience__line">
+                                    <span class="experience__dot"></span>
+                                </div>
+                                <div class="experience__data">
+                                    <h4 class="experience__title">Sarjana Teknik Informatika</h4>
+                                    <span class="experience__company">Universitas Teknologi Indonesia | 2013 - 2017</span>
+                                    <p class="experience__description">
+                                        Lulus dengan predikat Cum Laude. Aktif dalam organisasi kemahasiswaan dan mengikuti beberapa kompetisi pemrograman tingkat nasional.
+                                    </p>
+                                </div>
+                            </div>
+                             <div class="experience__item">
+                                <div class="experience__line">
+                                    <span class="experience__dot"></span>
+                                </div>
+                                <div class="experience__data">
+                                    <h4 class="experience__title">SMA Negeri 1 Kota Impian</h4>
+                                    <span class="experience__company">Jurusan Ilmu Pengetahuan Alam | 2010 - 2013</span>
+                                    <p class="experience__description">
+                                        Fokus pada mata pelajaran Matematika, Fisika, dan Kimia yang membangun fondasi logika dan pemecahan masalah.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Hubungi Saya</h2>
+                <span class="section__subtitle">Mari Bekerja Sama</span>
+
+                <div class="contact__container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Informasi Kontak</h3>
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <span class="contact__card-icon">&#9993;</span>
+                                <h4 class="contact__card-title">Email</h4>
+                                <span class="contact__card-data">nama.anda@email.com</span>
+                                <a href="mailto:nama.anda@email.com" class="contact__button">
+                                    Kirim Pesan
+                                </a>
+                            </div>
+
+                             <div class="contact__card">
+                                <span class="contact__card-icon">&#128222;</span>
+                                <h4 class="contact__card-title">Telepon / WhatsApp</h4>
+                                <span class="contact__card-data">+62 812-3456-7890</span>
+                                <a href="https://api.whatsapp.com/send?phone=6281234567890" target="_blank" class="contact__button">
+                                    Hubungi Sekarang
+                                </a>
+                            </div>
+
+                             <div class="contact__card">
+                                <span class="contact__card-icon">&#128205;</span>
+                                <h4 class="contact__card-title">Lokasi</h4>
+                                <span class="contact__card-data">Jakarta, Indonesia</span>
+                                <a href="#" class="contact__button">
+                                    Lihat Peta
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Kirim Pesan Langsung</h3>
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="name" class="contact__form-tag">Nama</label>
+                                <input type="text" name="name" id="name" placeholder="Masukkan nama Anda" class="contact__form-input" required>
+                            </div>
+                             <div class="contact__form-div">
+                                <label for="email" class="contact__form-tag">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Masukkan email Anda" class="contact__form-input" required>
+                            </div>
+                             <div class="contact__form-div contact__form-area">
+                                <label for="message" class="contact__form-tag">Pesan</label>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Tulis pesan Anda di sini" class="contact__form-input" required></textarea>
+                            </div>
+                            <button type="submit" class="button button--primary">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Nama Anda</h1>
+            <ul class="footer__links">
+                <li><a href="#about" class="footer__link">Tentang Saya</a></li>
+                <li><a href="#projects" class="footer__link">Proyek</a></li>
+                <li><a href="#experience" class="footer__link">Pengalaman</a></li>
+            </ul>
+            <div class="footer__social">
+                <a href="#" target="_blank" class="footer__social-link">LinkedIn</a>
+                <a href="#" target="_blank" class="footer__social-link">GitHub</a>
+                <a href="#" target="_blank" class="footer__social-link">Twitter</a>
+            </div>
+            <span class="footer__copy">&#169; 2025 Nama Anda. Seluruh hak cipta dilindungi.</span>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 8l6 6H6z"/></svg>
+    </a>
+
+    <script>
+        /* FUNGSI UNTUK MENU MOBILE */
+        const navMenu = document.getElementById('nav-menu'),
+              navToggle = document.getElementById('nav-toggle'),
+              navLinks = document.querySelectorAll('.nav__link');
+
+        if(navToggle){
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('show-menu');
+            });
+        }
+        
+        function linkAction(){
+            navMenu.classList.remove('show-menu');
+        }
+        navLinks.forEach(n => n.addEventListener('click', linkAction));
+
+        /* FUNGSI UNTUK SHADOW DI HEADER KETIKA SCROLL */
+        function scrollHeader(){
+            const header = document.getElementById('header');
+            if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header');
+        }
+        window.addEventListener('scroll', scrollHeader);
+
+        /* FUNGSI UNTUK MENAMPILKAN TOMBOL SCROLL UP */ 
+        function scrollUp(){
+            const scrollUp = document.getElementById('scroll-up');
+            if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll');
+        }
+        window.addEventListener('scroll', scrollUp);
+
+        /* FUNGSI UNTUK ACTIVE LINK SECTION SAAT SCROLL */
+        const sections = document.querySelectorAll('section[id]');
+        function scrollActive(){
+            const scrollY = window.pageYOffset;
+            sections.forEach(current => {
+                const sectionHeight = current.offsetHeight,
+                      sectionTop = current.offsetTop - 58,
+                      sectionId = current.getAttribute('id');
+                
+                if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+                    document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link');
+                } else {
+                    document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link');
+                }
+            });
+        }
+        window.addEventListener('scroll', scrollActive);
+    </script>
+</body>
+</html>
